@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/stripes-light.png");
 }
 
 * {
@@ -180,10 +180,12 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  
 }
 
 #contact-form li {
   margin-bottom: 10px;
+  list-style-type: none;
 }
 
 label,
@@ -215,3 +217,131 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/*
+  These rules take effect when the browser's width
+  is either 980px or less.
+*/
+@media screen and (max-width:980px) {
+
+  
+  .body {    
+    width: 980px;    
+  }
+
+  .main-section
+  {
+    width:73%;
+    margin: 15px 0 40px;
+
+  }
+  
+input[type=submit] {  
+  margin-left: 2.1em !important;
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width:768px) {
+
+  
+  .body {    
+    width: 768px;
+  }
+
+  .main-section
+  {
+    width:100%;
+    margin: 15px 0 40px;
+
+  }
+
+  #logo {
+    width: 190px;
+    height: 61px;   
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 69px;
+  
+  }
+
+  .container {
+    width: 498px;
+  }
+
+  #contact-form li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    
+  }
+  #contact-form ul {
+    margin-bottom: 20px;
+   padding:0px; 
+  }
+  
+  .main-section{
+    margin-top: -30px!important;
+  padding-top: 0px!important;
+}
+
+  }
+input[type=submit] {  
+  margin-left: 0px!important;
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 980px or less.
+*/
+@media screen and (max-width:980px) {
+
+  
+  .body {    
+    width: 980px;    
+  }
+
+  .main-section
+  {
+    width:73%;
+    margin: 15px 0 40px;
+
+  }
+  
+input[type=submit] {  
+  margin-left: 2.1em !important;
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
+@media screen and (max-width:640px) {
+
+  
+  .body {    
+    width: 640px;
+  }
+
+  #masthead{
+    position:static;
+  }
+  #logo{
+    width:465px;
+  }
+
+  #main-container{
+    padding-top:22px!important;
+  }
+
+  nav{
+    float:left;
+    margin-top:7px;
+    padding-left:30px;
+  }
+  .main-section{
+    width:95%;
+  }
+  }
+ 
